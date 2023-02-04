@@ -3,6 +3,7 @@ import React from 'react'
 import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
+import Tabs from '../components/tabs'
 import './home.css'
 
 const Home = (props) => {
@@ -137,9 +138,9 @@ const Home = (props) => {
                 />
               </div>
             </div>
-            <div data-aos="fade-left" className="home-container18">
+            <div className="home-container18">
               <span className="home-text13">Result</span>
-              <div data-aos="zoom-in" className="home-container19 card">
+              <div data-aos="fade-left" className="home-container19 card">
                 <div className="home-container20">
                   <img
                     alt="image"
@@ -181,6 +182,9 @@ const Home = (props) => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="home-container22">
+        <Tabs rootClassName="tabs-root-class-name"></Tabs>
       </div>
     </div>
   )
