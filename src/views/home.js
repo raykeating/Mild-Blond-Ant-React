@@ -40,14 +40,23 @@ const Home = (props) => {
             ></DangerousHTML>
           </div>
         </div>
+        <div className="home-container04">
+          <span className="home-text04">usage</span>
+          <svg
+            viewBox="0 0 658.2857142857142 1024"
+            className="animate__repeat-infinite animate__bounce animate__animated"
+          >
+            <path d="M614.286 420.571c0 4.571-2.286 9.714-5.714 13.143l-266.286 266.286c-3.429 3.429-8.571 5.714-13.143 5.714s-9.714-2.286-13.143-5.714l-266.286-266.286c-3.429-3.429-5.714-8.571-5.714-13.143s2.286-9.714 5.714-13.143l28.571-28.571c3.429-3.429 8-5.714 13.143-5.714 4.571 0 9.714 2.286 13.143 5.714l224.571 224.571 224.571-224.571c3.429-3.429 8.571-5.714 13.143-5.714s9.714 2.286 13.143 5.714l28.571 28.571c3.429 3.429 5.714 8.571 5.714 13.143z"></path>
+          </svg>
+        </div>
       </div>
-      <div className="home-container04">
-        <div className="home-container05">
-          <span className="home-text04">Connect a Strapi Collection</span>
+      <div className="home-container05">
+        <div className="home-container06">
+          <span className="home-text05">Connect a Strapi Collection</span>
           <div className="home-wrapper">
-            <div className="home-container06">
-              <div className="home-container07">
-                <span className="home-text05">HTML</span>
+            <div className="home-container07">
+              <div className="home-container08">
+                <span className="home-text06">HTML</span>
                 <div className="home-div1 Content">
                   <DangerousHTML
                     html={`<!-- HTML generated using hilite.me -->
@@ -65,8 +74,8 @@ const Home = (props) => {
                   ></DangerousHTML>
                 </div>
               </div>
-              <div className="home-container08">
-                <span className="home-text06">Strapi</span>
+              <div className="home-container09">
+                <span className="home-text07">Strapi</span>
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-udtp-700h.png"
@@ -74,13 +83,13 @@ const Home = (props) => {
                 />
               </div>
             </div>
-            <div className="home-container09">
-              <span className="home-text07">Result</span>
-              <div strapi-collection="people" className="home-container10">
+            <div className="home-container10">
+              <span className="home-text08">Result</span>
+              <div strapi-collection="people" className="home-container11">
                 <div
                   data-aos="zoom-in"
                   strapi-template="true"
-                  className="home-container11 card"
+                  className="home-container12 card"
                 >
                   <img
                     alt="image"
@@ -88,7 +97,7 @@ const Home = (props) => {
                     strapi-field="headshot"
                     className="home-image1"
                   />
-                  <span strapi-field="name" className="home-text08">
+                  <span strapi-field="name" className="home-text09">
                     Jane Doe
                   </span>
                 </div>
@@ -97,13 +106,13 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-container12">
-        <div className="home-container13">
-          <span className="home-text09">Connect Strapi Single Types</span>
+      <div className="home-container13">
+        <div className="home-container14">
+          <span className="home-text10">Connect Strapi Single Types</span>
           <div className="home-wrapper1">
-            <div className="home-container14">
-              <div className="home-container15">
-                <span className="home-text10">HTML</span>
+            <div className="home-container15">
+              <div className="home-container16">
+                <span className="home-text11">HTML</span>
                 <div className="home-div2 Content">
                   <DangerousHTML
                     html={`<!-- HTML generated using hilite.me -->
@@ -117,8 +126,8 @@ const Home = (props) => {
                   ></DangerousHTML>
                 </div>
               </div>
-              <div className="home-container16">
-                <span className="home-text11">Strapi</span>
+              <div className="home-container17">
+                <span className="home-text12">Strapi</span>
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-j194-700h.png"
@@ -126,26 +135,26 @@ const Home = (props) => {
                 />
               </div>
             </div>
-            <div className="home-container17">
-              <span className="home-text12">Result</span>
-              <div data-aos="zoom-in" className="home-container18 card">
-                <div className="home-container19">
+            <div className="home-container18">
+              <span className="home-text13">Result</span>
+              <div data-aos="zoom-in" className="home-container19 card">
+                <div className="home-container20">
                   <img
                     alt="image"
                     src="https://play.teleporthq.io/static/svg/default-img.svg"
                     strapi-single-type="employee.headshot"
                     className="home-image2"
                   />
-                  <div className="home-container20">
+                  <div className="home-container21">
                     <span
                       strapi-single-type="employee.name"
-                      className="home-text13"
+                      className="home-text14"
                     >
                       Jane Doe
                     </span>
                     <span
                       strapi-single-type="employee.position"
-                      className="home-text14"
+                      className="home-text15"
                     >
                       Employee
                     </span>
@@ -153,7 +162,7 @@ const Home = (props) => {
                 </div>
                 <span
                   strapi-single-type="employee.story"
-                  className="home-text15"
+                  className="home-text16"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   neque turpis, vulputate id libero sed, dignissim venenatis
