@@ -26,10 +26,9 @@ const Home = (props) => {
               <span>But for Strapi CMS integration</span>
             </span>
           </div>
-          <div data-aos="fade-left" data-aos-delay="200" className="home-div">
+          <div data-aos="fade-left" className="home-div">
             <DangerousHTML
               data-aos="fade-left"
-              data-aos-delay="200"
               html={`<!-- HTML generated using hilite.me --><div style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;script</span>
 <span style="color: #f92672">  </span><span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;https://strapify-script.s3.amazonaws.com/strapify-v0.0.1.js&quot;</span>
   <span style="color: #a6e22e">data-strapi-api-url=</span><span style="color: #e6db74">&quot;ENTER YOUR STRAPI URL HERE&quot;</span>
@@ -43,7 +42,7 @@ const Home = (props) => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-delay="400"
+          data-aos-delay="1000"
           className="home-container04"
         >
           <span className="home-text04">usage</span>
@@ -59,7 +58,7 @@ const Home = (props) => {
             <div className="home-container07">
               <div data-aos="fade-right" className="home-container08">
                 <span className="home-text06">HTML</span>
-                <div className="home-div1 Content minimal-scrollbar">
+                <div className="home-div1 minimal-scrollbar Content">
                   <DangerousHTML
                     html={`<!-- HTML generated using hilite.me -->
 <div class="minimal-scrollbar" style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">strapi-collection=</span><span style="color: #e6db74">&quot;people&quot;</span><span style="color: #f92672">&gt;</span>
@@ -76,11 +75,7 @@ const Home = (props) => {
                   ></DangerousHTML>
                 </div>
               </div>
-              <div
-                data-aos="fade-right"
-                data-aos-delay="200"
-                className="home-container09"
-              >
+              <div data-aos="fade-right" className="home-container09">
                 <span className="home-text07">Strapi</span>
                 <img
                   alt="pastedImage"
@@ -94,7 +89,6 @@ const Home = (props) => {
               <div strapi-collection="people" className="home-container11">
                 <div
                   data-aos="fade-left"
-                  data-aos-delay="400"
                   strapi-template="true"
                   className="home-container12 card"
                 >
@@ -120,7 +114,7 @@ const Home = (props) => {
             <div className="home-container15">
               <div data-aos="fade-right" className="home-container16">
                 <span className="home-text11">HTML</span>
-                <div className="home-div2 Content minimal-scrollbar">
+                <div className="home-div2 minimal-scrollbar Content">
                   <DangerousHTML
                     html={`<!-- HTML generated using hilite.me -->
 <div class="minimal-scrollbar" style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;card&quot;</span><span style="color: #f92672">&gt;</span>
@@ -133,11 +127,7 @@ const Home = (props) => {
                   ></DangerousHTML>
                 </div>
               </div>
-              <div
-                data-aos="fade-right"
-                data-aos-delay="200"
-                className="home-container17"
-              >
+              <div data-aos="fade-right" className="home-container17">
                 <span className="home-text12">Strapi</span>
                 <img
                   alt="pastedImage"
@@ -146,11 +136,7 @@ const Home = (props) => {
                 />
               </div>
             </div>
-            <div
-              data-aos="fade-left"
-              data-aos-delay="400"
-              className="home-container18"
-            >
+            <div data-aos="fade-left" className="home-container18">
               <span className="home-text13">Result</span>
               <div data-aos="zoom-in" className="home-container19 card">
                 <div className="home-container20">
