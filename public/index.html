@@ -44,6 +44,23 @@
         AOS.init();
       })
     </script>
+    <style>
+      .minimal-scrollbar::-webkit-scrollbar {
+        width: 4px;
+        overflow: hidden;
+      }
+
+      .minimal-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+        overflow: hidden;
+      }
+
+      .minimal-scrollbar::-webkit-scrollbar-thumb {
+        background: hsl(0, 0%, 40%);
+        border-radius: 32px;
+        overflow: hidden;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>

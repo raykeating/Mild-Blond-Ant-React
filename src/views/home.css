@@ -439,6 +439,7 @@
     width: 600px;
   }
 }
+
 @media(max-width: 767px) {
   .home-container03 {
     width: 400px;

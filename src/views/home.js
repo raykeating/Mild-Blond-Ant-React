@@ -59,7 +59,7 @@ const Home = (props) => {
             <div className="home-container07">
               <div data-aos="fade-right" className="home-container08">
                 <span className="home-text06">HTML</span>
-                <div className="home-div1 Content">
+                <div className="home-div1 Content minimal-scrollbar">
                   <DangerousHTML
                     html={`<!-- HTML generated using hilite.me -->
 <div style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">strapi-collection=</span><span style="color: #e6db74">&quot;people&quot;</span><span style="color: #f92672">&gt;</span>
@@ -94,8 +94,8 @@ const Home = (props) => {
               <div strapi-collection="people" className="home-container11">
                 <div
                   data-aos="fade-left"
-                  strapi-template="true"
                   data-aos-delay="1000"
+                  strapi-template="true"
                   className="home-container12 card"
                 >
                   <img
