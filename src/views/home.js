@@ -26,10 +26,10 @@ const Home = (props) => {
               <span>But for Strapi CMS integration</span>
             </span>
           </div>
-          <div data-aos="fade-left" data-aos-delay="500" className="home-div">
+          <div data-aos="fade-left" data-aos-delay="200" className="home-div">
             <DangerousHTML
               data-aos="fade-left"
-              data-aos-delay="500"
+              data-aos-delay="200"
               html={`<!-- HTML generated using hilite.me --><div style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;script</span>
 <span style="color: #f92672">  </span><span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;https://strapify-script.s3.amazonaws.com/strapify-v0.0.1.js&quot;</span>
   <span style="color: #a6e22e">data-strapi-api-url=</span><span style="color: #e6db74">&quot;ENTER YOUR STRAPI URL HERE&quot;</span>
@@ -43,7 +43,7 @@ const Home = (props) => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-delay="1000"
+          data-aos-delay="400"
           className="home-container04"
         >
           <span className="home-text04">usage</span>
