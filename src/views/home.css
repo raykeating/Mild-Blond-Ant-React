@@ -66,6 +66,10 @@
   font-size: 1em;
   text-transform: uppercase;
 }
+.home-icon {
+  fill: var(--dl-color-gray-white);
+  height: 32px;
+}
 .home-container05 {
   gap: var(--dl-space-space-sixunits);
   width: 100%;
