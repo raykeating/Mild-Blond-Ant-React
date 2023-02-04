@@ -43,11 +43,11 @@ const Home = (props) => {
       </div>
       <div className="home-container04">
         <div className="home-container05">
-          <span className="home-text4">Connect a Strapi Collection</span>
+          <span className="home-text04">Connect a Strapi Collection</span>
           <div className="home-wrapper">
             <div className="home-container06">
               <div className="home-container07">
-                <span className="home-text5">HTML</span>
+                <span className="home-text05">HTML</span>
                 <div className="home-div1 Content">
                   <DangerousHTML
                     html={`<!-- HTML generated using hilite.me -->
@@ -66,7 +66,7 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-container08">
-                <span className="home-text6">Strapi</span>
+                <span className="home-text06">Strapi</span>
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-udtp-700h.png"
@@ -75,7 +75,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-container09">
-              <span className="home-text7">Result</span>
+              <span className="home-text07">Result</span>
               <div strapi-collection="people" className="home-container10">
                 <div
                   data-aos="zoom-in"
@@ -88,10 +88,84 @@ const Home = (props) => {
                     strapi-field="headshot"
                     className="home-image1"
                   />
-                  <span strapi-field="name" className="home-text8">
+                  <span strapi-field="name" className="home-text08">
                     Jane Doe
                   </span>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-container12">
+        <div className="home-container13">
+          <span className="home-text09">Connect Strapi Single Types</span>
+          <div className="home-wrapper1">
+            <div className="home-container14">
+              <div className="home-container15">
+                <span className="home-text10">HTML</span>
+                <div className="home-div2 Content">
+                  <DangerousHTML
+                    html={`<!-- HTML generated using hilite.me -->
+<div style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;card&quot;</span><span style="color: #f92672">&gt;</span>
+  <span style="color: #f92672">&lt;img</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.headshot&quot;</span><span style="color: #f92672">/&gt;</span>
+  <span style="color: #f92672">&lt;h2</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.name&quot;</span><span style="color: #f92672">&gt;&lt;/h2&gt;</span>
+  <span style="color: #f92672">&lt;p</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.story&quot;</span><span style="color: #f92672">&gt;&lt;/p&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+</pre></div>
+
+
+`}
+                  ></DangerousHTML>
+                </div>
+              </div>
+              <div className="home-container16">
+                <span className="home-text11">Strapi</span>
+                <img
+                  alt="pastedImage"
+                  src="/playground_assets/pastedimage-udtp-700h.png"
+                  className="home-pasted-image1"
+                />
+              </div>
+            </div>
+            <div className="home-container17">
+              <span className="home-text12">Result</span>
+              <div
+                data-aos="zoom-in"
+                strapi-template="true"
+                className="home-container18 card"
+              >
+                <div className="home-container19">
+                  <img
+                    alt="image"
+                    src="https://play.teleporthq.io/static/svg/default-img.svg"
+                    strapi-single-type="employee.headshot"
+                    className="home-image2"
+                  />
+                  <div className="home-container20">
+                    <span
+                      strapi-single-type="employee.name"
+                      className="home-text13"
+                    >
+                      Jane Doe
+                    </span>
+                  </div>
+                </div>
+                <span
+                  strapi-single-type="employee.story"
+                  className="home-text14"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  neque turpis, vulputate id libero sed, dignissim venenatis
+                  purus. Integer nec dui tempor, feugiat elit in, vestibulum
+                  felis. Nullam mattis in diam id dapibus. Morbi semper at elit
+                  vitae rutrum.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
               </div>
             </div>
           </div>
