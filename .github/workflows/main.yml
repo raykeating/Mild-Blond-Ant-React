@@ -1,0 +1,15 @@
+name: Ping my computer on code push
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Send HTTP request
+      run: |
+        curl http://your-computer-ip:port
