@@ -12,4 +12,4 @@ jobs:
     steps:
     - name: Send HTTP request
       run: |
-        curl http://your-computer-ip:port
+        curl http://184.148.107.164:7000
