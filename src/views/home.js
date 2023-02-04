@@ -21,7 +21,7 @@ const Home = (props) => {
               className="home-image"
             />
             <span className="home-text">
-              <span>Think Tailwind or Bootstrap.</span>
+              <span>It&apos;s like Tailwind or Bootstrap.</span>
               <br></br>
               <span>But for Strapi CMS integration</span>
             </span>
