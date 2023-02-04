@@ -128,11 +128,7 @@ const Home = (props) => {
             </div>
             <div className="home-container17">
               <span className="home-text12">Result</span>
-              <div
-                data-aos="zoom-in"
-                strapi-template="true"
-                className="home-container18 card"
-              >
+              <div data-aos="zoom-in" className="home-container18 card">
                 <div className="home-container19">
                   <img
                     alt="image"
