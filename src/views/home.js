@@ -56,7 +56,7 @@ const Home = (props) => {
           <span className="home-text05">Connect a Strapi Collection</span>
           <div className="home-wrapper">
             <div className="home-container07">
-              <div className="home-container08">
+              <div data-aos="fade-right" className="home-container08">
                 <span className="home-text06">HTML</span>
                 <div className="home-div1 Content">
                   <DangerousHTML
@@ -75,7 +75,11 @@ const Home = (props) => {
                   ></DangerousHTML>
                 </div>
               </div>
-              <div className="home-container09">
+              <div
+                data-aos="fade-right"
+                data-aos-delay="400"
+                className="home-container09"
+              >
                 <span className="home-text07">Strapi</span>
                 <img
                   alt="pastedImage"
@@ -88,9 +92,8 @@ const Home = (props) => {
               <span className="home-text08">Result</span>
               <div strapi-collection="people" className="home-container11">
                 <div
-                  data-aos="zoom-in"
+                  data-aos="fade-left"
                   strapi-template="true"
-                  data-aos-delay="500"
                   className="home-container12 card"
                 >
                   <img
