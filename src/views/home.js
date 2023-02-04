@@ -90,6 +90,7 @@ const Home = (props) => {
                 <div
                   data-aos="zoom-in"
                   strapi-template="true"
+                  data-aos-delay="500"
                   className="home-container12 card"
                 >
                   <img
