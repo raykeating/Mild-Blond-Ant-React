@@ -95,6 +95,7 @@ const Home = (props) => {
                 <div
                   data-aos="fade-left"
                   strapi-template="true"
+                  data-aos-delay="1000"
                   className="home-container12 card"
                 >
                   <img
@@ -117,7 +118,7 @@ const Home = (props) => {
           <span className="home-text10">Connect Strapi Single Types</span>
           <div className="home-wrapper1">
             <div className="home-container15">
-              <div className="home-container16">
+              <div data-aos="fade-right" className="home-container16">
                 <span className="home-text11">HTML</span>
                 <div className="home-div2 Content">
                   <DangerousHTML
@@ -132,7 +133,11 @@ const Home = (props) => {
                   ></DangerousHTML>
                 </div>
               </div>
-              <div className="home-container17">
+              <div
+                data-aos="fade-right"
+                data-aos-delay="500"
+                className="home-container17"
+              >
                 <span className="home-text12">Strapi</span>
                 <img
                   alt="pastedImage"
@@ -141,7 +146,11 @@ const Home = (props) => {
                 />
               </div>
             </div>
-            <div className="home-container18">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="1000"
+              className="home-container18"
+            >
               <span className="home-text13">Result</span>
               <div data-aos="zoom-in" className="home-container19 card">
                 <div className="home-container20">
