@@ -78,7 +78,7 @@ const Home = (props) => {
               </div>
               <div
                 data-aos="fade-right"
-                data-aos-delay="400"
+                data-aos-delay="200"
                 className="home-container09"
               >
                 <span className="home-text07">Strapi</span>
@@ -94,7 +94,7 @@ const Home = (props) => {
               <div strapi-collection="people" className="home-container11">
                 <div
                   data-aos="fade-left"
-                  data-aos-delay="1000"
+                  data-aos-delay="400"
                   strapi-template="true"
                   className="home-container12 card"
                 >
@@ -135,7 +135,7 @@ const Home = (props) => {
               </div>
               <div
                 data-aos="fade-right"
-                data-aos-delay="500"
+                data-aos-delay="200"
                 className="home-container17"
               >
                 <span className="home-text12">Strapi</span>
@@ -148,7 +148,7 @@ const Home = (props) => {
             </div>
             <div
               data-aos="fade-left"
-              data-aos-delay="1000"
+              data-aos-delay="400"
               className="home-container18"
             >
               <span className="home-text13">Result</span>
