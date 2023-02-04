@@ -120,7 +120,7 @@ const Home = (props) => {
             <div className="home-container15">
               <div data-aos="fade-right" className="home-container16">
                 <span className="home-text11">HTML</span>
-                <div className="home-div2 Content">
+                <div className="home-div2 Content minimal-scrollbar">
                   <DangerousHTML
                     html={`<!-- HTML generated using hilite.me -->
 <div style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;card&quot;</span><span style="color: #f92672">&gt;</span>
