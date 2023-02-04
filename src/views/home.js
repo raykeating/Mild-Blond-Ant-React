@@ -62,7 +62,7 @@ const Home = (props) => {
                 <div className="home-div1 Content minimal-scrollbar">
                   <DangerousHTML
                     html={`<!-- HTML generated using hilite.me -->
-<div style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">strapi-collection=</span><span style="color: #e6db74">&quot;people&quot;</span><span style="color: #f92672">&gt;</span>
+<div class="minimal-scrollbar" style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">strapi-collection=</span><span style="color: #e6db74">&quot;people&quot;</span><span style="color: #f92672">&gt;</span>
   <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">strapi-template</span><span style="color: #f92672">&gt;</span>
     <span style="color: #f92672">&lt;img</span> <span style="color: #a6e22e">strapi-field=</span><span style="color: #e6db74">&quot;headshot&quot;</span><span style="color: #f92672">&gt;</span><span style="color: #f92672">&lt;/img&gt;</span>
     <span style="color: #f92672">&lt;p</span> <span style="color: #a6e22e">strapi-field=</span><span style="color: #e6db74">&quot;name&quot;</span><span style="color: #f92672">&gt;</span><span style="color: #fff"></span><span style="color: #f92672">&lt;/p&gt;</span>
@@ -123,7 +123,7 @@ const Home = (props) => {
                 <div className="home-div2 Content minimal-scrollbar">
                   <DangerousHTML
                     html={`<!-- HTML generated using hilite.me -->
-<div style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;card&quot;</span><span style="color: #f92672">&gt;</span>
+<div class="minimal-scrollbar" style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;card&quot;</span><span style="color: #f92672">&gt;</span>
   <span style="color: #f92672">&lt;img</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.headshot&quot;</span><span style="color: #f92672">/&gt;</span>
   <span style="color: #f92672">&lt;h2</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.name&quot;</span><span style="color: #f92672">&gt;&lt;/h2&gt;</span>
   <span style="color: #f92672">&lt;p</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.position&quot;</span><span style="color: #f92672">&gt;&lt;/p&gt;</span>
