@@ -23,6 +23,7 @@ const Home = (props) => {
             <span className="home-text">
               <span>It&apos;s like Tailwind or Bootstrap.</span>
               <br></br>
+              <br></br>
               <span>But for Strapi CMS integration</span>
             </span>
           </div>
@@ -43,11 +44,11 @@ const Home = (props) => {
       </div>
       <div className="home-container04">
         <div className="home-container05">
-          <span className="home-text4">Connect a Strapi Collection</span>
+          <span className="home-text05">Connect a Strapi Collection</span>
           <div className="home-wrapper">
             <div className="home-container06">
               <div className="home-container07">
-                <span className="home-text5">HTML</span>
+                <span className="home-text06">HTML</span>
                 <div className="home-div1 Content">
                   <DangerousHTML
                     html={`<!-- HTML generated using hilite.me -->
@@ -66,7 +67,7 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-container08">
-                <span className="home-text6">Strapi</span>
+                <span className="home-text07">Strapi</span>
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-udtp-700h.png"
@@ -75,7 +76,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-container09">
-              <span className="home-text7">Result</span>
+              <span className="home-text08">Result</span>
               <div strapi-collection="people" className="home-container10">
                 <div
                   data-aos="zoom-in"
@@ -88,7 +89,7 @@ const Home = (props) => {
                     strapi-field="headshot"
                     className="home-image1"
                   />
-                  <span strapi-field="name" className="home-text8">
+                  <span strapi-field="name" className="home-text09">
                     Jane Doe
                   </span>
                 </div>
