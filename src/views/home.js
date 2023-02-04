@@ -110,12 +110,10 @@ const Home = (props) => {
 <div style="background: #1c1f2b; overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:1.5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;card&quot;</span><span style="color: #f92672">&gt;</span>
   <span style="color: #f92672">&lt;img</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.headshot&quot;</span><span style="color: #f92672">/&gt;</span>
   <span style="color: #f92672">&lt;h2</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.name&quot;</span><span style="color: #f92672">&gt;&lt;/h2&gt;</span>
+  <span style="color: #f92672">&lt;p</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.position&quot;</span><span style="color: #f92672">&gt;&lt;/p&gt;</span>
   <span style="color: #f92672">&lt;p</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.story&quot;</span><span style="color: #f92672">&gt;&lt;/p&gt;</span>
 <span style="color: #f92672">&lt;/div&gt;</span>
-</pre></div>
-
-
-`}
+</pre></div>`}
                   ></DangerousHTML>
                 </div>
               </div>
@@ -123,7 +121,7 @@ const Home = (props) => {
                 <span className="home-text11">Strapi</span>
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/pastedimage-udtp-700h.png"
+                  src="/playground_assets/pastedimage-j194-700h.png"
                   className="home-pasted-image1"
                 />
               </div>
@@ -149,11 +147,17 @@ const Home = (props) => {
                     >
                       Jane Doe
                     </span>
+                    <span
+                      strapi-single-type="employee.position"
+                      className="home-text14"
+                    >
+                      Employee
+                    </span>
                   </div>
                 </div>
                 <span
                   strapi-single-type="employee.story"
-                  className="home-text14"
+                  className="home-text15"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   neque turpis, vulputate id libero sed, dignissim venenatis
