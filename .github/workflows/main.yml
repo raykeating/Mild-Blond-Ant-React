@@ -12,4 +12,4 @@ jobs:
     steps:
     - name: Send HTTP request
       run: |
-        curl https://8c68-184-148-107-164.ngrok.io/git-pull
+        curl https://cf6f-184-148-107-164.ngrok.io
