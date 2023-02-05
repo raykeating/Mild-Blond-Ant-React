@@ -7,6 +7,7 @@ interface State {
 interface Props {
   state: State;
   setState: React.Dispatch<React.SetStateAction<State>>;
+  children: any;
 }
 
 const AppStateContext = createContext<Props | null>(null);
