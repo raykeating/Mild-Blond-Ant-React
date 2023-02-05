@@ -1,5 +1,5 @@
 import React from 'react'
-import WidgetstabsTabs from '../../widgets/tabs'
+import CustomTabs from '../../widgets/CustomTabs'
 
 import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
@@ -232,44 +232,49 @@ const Home = (props) => {
       <div className="home-container28">
         <span className="home-text22">Connect Strapi Single Types</span>
         <div className="home-container29">
-          <WidgetstabsTabs></WidgetstabsTabs>
+          <CustomTabs></CustomTabs>
           <div className="home-container30">
-            <span className="home-text23">Result</span>
-            <div data-aos="fade-left" className="home-container31 card">
-              <div className="home-container32">
-                <img
-                  alt="image"
-                  src="https://play.teleporthq.io/static/svg/default-img.svg"
-                  strapi-single-type="employee.headshot"
-                  className="home-image4"
-                />
+            <div className="home-container31">
+              <span className="home-text23">Result</span>
+              <div data-aos="fade-left" className="home-container32 card">
                 <div className="home-container33">
-                  <span
-                    strapi-single-type="employee.name"
-                    className="home-text24"
-                  >
-                    Jane Doe
-                  </span>
-                  <span
-                    strapi-single-type="employee.position"
-                    className="home-text25"
-                  >
-                    Employee
-                  </span>
+                  <img
+                    alt="image"
+                    src="https://play.teleporthq.io/static/svg/default-img.svg"
+                    strapi-single-type="employee.headshot"
+                    className="home-image4"
+                  />
+                  <div className="home-container34">
+                    <span
+                      strapi-single-type="employee.name"
+                      className="home-text24"
+                    >
+                      Jane Doe
+                    </span>
+                    <span
+                      strapi-single-type="employee.position"
+                      className="home-text25"
+                    >
+                      Employee
+                    </span>
+                  </div>
                 </div>
-              </div>
-              <span strapi-single-type="employee.story" className="home-text26">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                neque turpis, vulputate id libero sed, dignissim venenatis
-                purus. Integer nec dui tempor, feugiat elit in, vestibulum
-                felis. Nullam mattis in diam id dapibus. Morbi semper at elit
-                vitae rutrum.
                 <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
+                  strapi-single-type="employee.story"
+                  className="home-text26"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  neque turpis, vulputate id libero sed, dignissim venenatis
+                  purus. Integer nec dui tempor, feugiat elit in, vestibulum
+                  felis. Nullam mattis in diam id dapibus. Morbi semper at elit
+                  vitae rutrum.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+              </div>
             </div>
           </div>
         </div>
