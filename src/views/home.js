@@ -184,7 +184,102 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-container22">
-        <Tabs rootClassName="tabs-root-class-name"></Tabs>
+        <span className="home-text17">Connect Strapi Collection Types</span>
+        <div className="home-container23">
+          <Tabs rootClassName="tabs-root-class-name"></Tabs>
+          <div className="home-container24">
+            <span className="home-text18">Result</span>
+            <div data-aos="fade-left" className="home-container25 card">
+              <div className="home-container26">
+                <img
+                  alt="image"
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  strapi-single-type="employee.headshot"
+                  className="home-image3"
+                />
+                <div className="home-container27">
+                  <span
+                    strapi-single-type="employee.name"
+                    className="home-text19"
+                  >
+                    Jane Doe
+                  </span>
+                  <span
+                    strapi-single-type="employee.position"
+                    className="home-text20"
+                  >
+                    Employee
+                  </span>
+                </div>
+              </div>
+              <span strapi-single-type="employee.story" className="home-text21">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                neque turpis, vulputate id libero sed, dignissim venenatis
+                purus. Integer nec dui tempor, feugiat elit in, vestibulum
+                felis. Nullam mattis in diam id dapibus. Morbi semper at elit
+                vitae rutrum.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-container28">
+        <span className="home-text22">Connect Strapi Single Types</span>
+        <div className="home-container29">
+          <div>Placeholder for widget CustomTabs</div>
+          <div className="home-container31">
+            <div className="home-container32">
+              <span className="home-text23">Result</span>
+              <div data-aos="fade-left" className="home-container33 card">
+                <div className="home-container34">
+                  <img
+                    alt="image"
+                    src="https://play.teleporthq.io/static/svg/default-img.svg"
+                    strapi-single-type="employee.headshot"
+                    className="home-image4"
+                  />
+                  <div className="home-container35">
+                    <span
+                      strapi-single-type="employee.name"
+                      className="home-text24"
+                    >
+                      Jane Doe
+                    </span>
+                    <span
+                      strapi-single-type="employee.position"
+                      className="home-text25"
+                    >
+                      Employee
+                    </span>
+                  </div>
+                </div>
+                <span
+                  strapi-single-type="employee.story"
+                  className="home-text26"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  neque turpis, vulputate id libero sed, dignissim venenatis
+                  purus. Integer nec dui tempor, feugiat elit in, vestibulum
+                  felis. Nullam mattis in diam id dapibus. Morbi semper at elit
+                  vitae rutrum.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-container36">
+        <span className="home-text27">Connect Strapi Single Types</span>
       </div>
     </div>
   )

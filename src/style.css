@@ -101,6 +101,10 @@
 
 
 
+.noselect {
+  cursor: pointer;
+  user-select: none;
+}
 .Heading {
   font-size: 32px;
   font-family: Inter;

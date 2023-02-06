@@ -1,29 +1,50 @@
 import React, { useState } from 'react'
 
+import DangerousHTML from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 import './tabs.css'
 
 const Tabs = (props) => {
-  const [openTab, setOpenTab] = useState('html')
+  const [selectedTab, setSelectedTab] = useState('html')
   return (
     <div className={`tabs-container ${props.rootClassName} `}>
       <div className="tabs-container1">
-        <div onClick={() => setOpenTab('html')} className="tabs-container2">
-          <span className="tabs-text">{props.text}</span>
+        <div onClick={() => setSelectedTab('html')} className="tabs-container2">
+          <span className="tabs-text">{props.heading1}</span>
         </div>
-        <div onClick={() => setOpenTab('strapi')} className="tabs-container3">
-          <span className="tabs-text1">{props.text1}</span>
+        <div
+          onClick={() => setSelectedTab('strapi')}
+          className="tabs-container3"
+        >
+          <span className="tabs-text1">{props.heading2}</span>
         </div>
       </div>
-      {openTab === 'html' && (
+      {selectedTab === 'html' && (
         <div className="tabs-container4">
-          <h1 className="">{props.heading1}</h1>
+          <div className="tabs-div minimal-scrollbar Content">
+            <DangerousHTML
+              html={`<!-- HTML generated using hilite.me -->
+<div class="minimal-scrollbar" style="overflow:auto;width:auto;border-radius:8px;padding:1em 2em;font-size:2em; display: flex; justify-content: center; align-items: center; height: 100%;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;card&quot;</span><span style="color: #f92672">&gt;</span>
+  <span style="color: #f92672">&lt;img</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.headshot&quot;</span><span style="color: #f92672">/&gt;</span>
+  <span style="color: #f92672">&lt;h2</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.name&quot;</span><span style="color: #f92672">&gt;&lt;/h2&gt;</span>
+  <span style="color: #f92672">&lt;p</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.position&quot;</span><span style="color: #f92672">&gt;&lt;/p&gt;</span>
+  <span style="color: #f92672">&lt;p</span> <span style="color: #a6e22e">strapi-single-type=</span><span style="color: #e6db74">&quot;employee.story&quot;</span><span style="color: #f92672">&gt;&lt;/p&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+</pre></div>`}
+              className=""
+            ></DangerousHTML>
+          </div>
         </div>
       )}
-      {openTab === 'strapi' && (
+      {selectedTab === 'strapi' && (
         <div className="tabs-container5">
-          <h1 className="">{props.heading}</h1>
+          <img
+            alt={props.pastedImage_alt}
+            src={props.pastedImage_src}
+            loading="eager"
+            className="tabs-pasted-image"
+          />
         </div>
       )}
     </div>
@@ -31,19 +52,19 @@ const Tabs = (props) => {
 }
 
 Tabs.defaultProps = {
-  text1: 'Strapi',
-  text: 'HTML',
-  heading: 'Strapi',
-  heading1: 'HTML',
+  pastedImage_src: '/playground_assets/pastedimage-rcl8-700w.png',
   rootClassName: '',
+  heading2: 'Strapi',
+  heading1: 'HTML',
+  pastedImage_alt: 'pastedImage',
 }
 
 Tabs.propTypes = {
-  text1: PropTypes.string,
-  text: PropTypes.string,
-  heading: PropTypes.string,
-  heading1: PropTypes.string,
+  pastedImage_src: PropTypes.string,
   rootClassName: PropTypes.string,
+  heading2: PropTypes.string,
+  heading1: PropTypes.string,
+  pastedImage_alt: PropTypes.string,
 }
 
 export default Tabs
